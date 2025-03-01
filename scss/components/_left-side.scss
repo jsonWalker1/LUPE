@@ -1,4 +1,5 @@
 .left-content__nav-bar{
+    position: relative;
     background-image: url('/assets/leseni.jpg');
     background-position: center;
     background-size: cover;
@@ -10,7 +11,8 @@
     li {
         padding: .2rem 1.5rem;
     }
-    a{
+    a{  
+        border-radius: 15%;  
         background-color: black;
         padding: .1rem .3rem;
     }
