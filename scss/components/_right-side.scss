@@ -1,0 +1,19 @@
+
+.right-content__main-content {
+    background-color: black;
+}
+
+
+.bullet{
+    font-size: .8rem;
+    margin-top: 1.3rem;
+    max-width: 80%;
+    margin-left: 3rem;
+}
+.bullet::before{
+    content: "•";   
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-left: -40px; 
+}
+
