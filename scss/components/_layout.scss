@@ -2,14 +2,27 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     width: 60%;
-    height: 95vh;
-    margin: 10px auto;
+    height: 100vh;
+    margin: 0 auto;
+}
+.left-content__nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 @media (max-width:930px) {
     .container {
         grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
         width: 100%;
-        padding: 0;
-        margin: 0;
+    }
+
+}
+@media (max-width:519px){
+    .contact-me{
+        display: none;
+    }
+    .left-content__nav-bar{
+        height: 50vh;
+
     }
 }
