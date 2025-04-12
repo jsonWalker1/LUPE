@@ -18,7 +18,10 @@
 
 }
 @media (max-width:519px){
-    .contact-me{
+    .right-content__contact-me{
+        display: block !important;
+    }
+    .left-content__contact-me{
         display: none;
     }
     .left-content__nav-bar{
